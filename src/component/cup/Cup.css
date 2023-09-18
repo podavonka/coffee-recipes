@@ -1,0 +1,130 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+
+.cupWindow {
+    grid-area: cup;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    min-width: 300px;
+    background: #f3e6d4;
+    background: rgba(243, 230, 212, 0.8);
+}
+
+.cupOverflow {
+
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-color: #5e7d67 transparent;
+    scrollbar-width: thin;
+}
+
+.cupOverflow::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #5e7d67;
+}
+
+@media all and (max-width: 1311px) {
+    .cupOverflow {
+        overflow-y: initial;
+    }
+}
+
+.cupWindow h1 {
+    /*border: 1px solid green;*/
+    margin: 0;
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cupContainer {
+    position: relative;
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+}
+
+@media all and (max-width: 830px) {
+    .cupContainer {
+        min-width: 80%;
+    }
+}
+
+.steamContainer {
+    /*border: 2px solid red;*/
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+/*------------------------------------------*/
+
+.cupContainer .steam {
+    /*position: absolute;*/
+    display: inline-block;
+    border-radius: 10px 2px;
+    width: 8px;
+    animation: steaming 2s infinite;
+}
+
+@keyframes steaming {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        filter: blur(8px);
+        transform: translateY(-10px);
+    }
+}
+
+.cupContainer .steam:nth-child(1) {
+    /*top: 10px;*/
+    /*left: 255px;*/
+    align-self: flex-end;
+    height: 30px;
+    background: #8e5a3423;
+    animation-delay: .2s;
+}
+
+.cupContainer .steam:nth-child(2) {
+    /*top: 25px;*/
+    /*left: 290px;*/
+    height: 50px;
+    background: #8e5a3454;
+    animation-delay: .6s;
+}
+
+.cupContainer .steam:nth-child(3) {
+    /*top: 15px;*/
+    /*left: 325px;*/
+    height: 40px;
+    background: #8e5a3433;
+    animation-delay: 1s;
+}
+
+/*------------------------------------------*/
+
+.colorsLegend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.colorsLegend span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+

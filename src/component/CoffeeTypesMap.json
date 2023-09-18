@@ -1,0 +1,218 @@
+{
+  "Cappuccino": {
+    "liked": true,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Latte": {
+    "liked": false,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Americano": {
+    "liked": false,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Flat White": {
+    "liked": true,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Mocha": {
+    "liked": true,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Macchiato": {
+    "liked": false,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Doppio": {
+    "liked": false,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Irish Coffee": {
+    "liked": false,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  },
+  "Lungo": {
+    "liked": false,
+    "ingredients": [
+      {
+        "name": "coffee beans",
+        "amount": "7 g"
+      },
+      {
+        "name": "water",
+        "amount": "60 ml"
+      },
+      {
+        "name": "milk",
+        "amount": "100 ml"
+      }
+    ],
+    "recipe": [
+      "Bacon ipsum dolor amet pork loin alcatra beef, filet mignon ham hock turducken chicken meatball tail corned beef short loin.",
+      "Add water",
+      "Drumstick bresaola short loin brisket. Alcatra chislic short loin pastrami jerky, tail shankle.",
+      "Add milk",
+      "Beef ribs shankle bacon, tenderloin sirloin tongue corned beef leberkas pork chop t-bone meatball jowl prosciutto alcatra."
+    ]
+  }
+}

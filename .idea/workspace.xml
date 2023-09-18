@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd200d27-d679-430f-8fb3-bc25a599f4db" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OFDwHmCYP2xQUcvqroWxPmUwxu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/podav/Desktop/coffee-recipes",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\public" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\menu" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\cup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\public\favicon.ico" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\favicon.ico" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd200d27-d679-430f-8fb3-bc25a599f4db" name="Changes" comment="" />
+      <created>1681147672374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681147672374</updated>
+      <workItem from="1681147673521" duration="972000" />
+      <workItem from="1681475812982" duration="582000" />
+      <workItem from="1681476409961" duration="18167000" />
+      <workItem from="1681555852288" duration="3742000" />
+      <workItem from="1681728099243" duration="1077000" />
+      <workItem from="1681897070540" duration="13381000" />
+      <workItem from="1682075370832" duration="9764000" />
+      <workItem from="1682685182387" duration="14296000" />
+      <workItem from="1682760236031" duration="11543000" />
+      <workItem from="1683115370545" duration="737000" />
+      <workItem from="1683362767760" duration="5537000" />
+      <workItem from="1683472067373" duration="32000" />
+      <workItem from="1683644632543" duration="13977000" />
+      <workItem from="1683714453806" duration="13365000" />
+      <workItem from="1683748626603" duration="2481000" />
+      <workItem from="1683803568871" duration="1921000" />
+      <workItem from="1684143513166" duration="8000" />
+      <workItem from="1684586619977" duration="16057000" />
+      <workItem from="1684666745048" duration="15394000" />
+      <workItem from="1684858558852" duration="13264000" />
+      <workItem from="1685005952660" duration="2832000" />
+      <workItem from="1685017962852" duration="3236000" />
+      <workItem from="1695057678010" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

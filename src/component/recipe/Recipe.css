@@ -1,0 +1,132 @@
+.recipe {
+    grid-area: recipe;
+    background: #f3e6d4;
+    background: rgba(243, 230, 212, 0.9);
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 100%;
+    grid-gap: 0 0.1%;
+    grid-template-areas: "header" "recipeContent";
+}
+
+/* Header */
+
+.recipe header {
+    grid-area: header;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.recipe header::after {
+    display: block;
+    content: '';
+    width: 194px;
+    height: 3px;
+    background: black;
+    margin: 10px auto 40px;
+}
+
+.recipe .underHeader {
+    grid-area: recipeContent;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-color: #5e7d67 transparent;
+    scrollbar-width: thin;
+}
+
+.recipe .underHeader::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #5e7d67;
+}
+
+@media all and (max-width: 1311px) {
+    .recipe .underHeader {
+        overflow-y: initial;
+    }
+}
+
+/* Ingredients */
+
+.recipe .ingredients {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.recipe .ingredient {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recipe .ingredientIconBox {
+    margin-bottom: 5px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: #ac6949;
+}
+
+.recipe .ingredientIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+}
+
+.recipe .ingredient div {
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+}
+
+/* Recipe */
+
+.recipe ol {
+    margin-top: 30px;
+    padding: 0 10px;
+    list-style: none;
+    counter-reset: steps-counter;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.recipe ol li {
+    counter-increment: steps-counter;
+    position: relative;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid black;
+}
+
+.recipe ol li:last-child {
+    padding-bottom: 0;
+    border: none;
+}
+
+.recipe ol li::before {
+    content: counter(steps-counter) " ";
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.recipe ol li:last-child::before {
+    padding-bottom: 0;
+}

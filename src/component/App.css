@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font: 20px "Century Gothic", Futura, sans-serif;
+    scrollbar-color: #000001 transparent;
+    scrollbar-width: thin;
+    scroll-padding: 5px;
+}
+
+*:focus {
+    border: none;
+    outline: none;
+}
+
+body {
+    background: #5e7d67 url("background.png") no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    padding-left: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #000001;
+}
+
+.App {
+    display: grid;
+    height: 100vh;
+    padding: 15px;
+    grid-template-columns: 346px 35% 1fr;
+    grid-gap: 0 0.1%;
+    grid-template-areas: "menu cup recipe";
+}
+
+.App > * {
+    height: calc(100vh - 50px);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+@media all and (max-width: 1311px) {
+    .App {
+        height: 100%;
+        grid-template-columns: 346px auto;
+        grid-template-areas:
+                "menu cup"
+                "menu recipe";
+    }
+
+    .App > * {
+        height: auto;
+        overflow: initial;
+    }
+}
+
+@media all and (max-width: 830px) {
+    .App {
+        grid-template-columns: auto;
+        grid-template-areas: "menu" "cup" "recipe";
+    }
+}
+
+.color {
+    color: #5e7d67; /* green */
+    color: #232324; /* black */
+    color: #86563a; /* brown */
+    color: #f3e6d4; /* light brown */
+    color: #ac6949; /* orange */
+}

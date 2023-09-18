@@ -1,0 +1,184 @@
+.menu {
+    grid-area: menu;
+    background: rgba(243, 230, 212, 0.9);
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 100%;
+    grid-gap: 0 0.1%;
+    grid-template-areas: "searchbar" "coffee";
+}
+
+/* SEARCHBAR */
+
+/* Search */
+
+.menu form {
+    grid-area: searchbar;
+}
+
+.menu input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 2em;
+    padding: 0 15px;
+    border: none;
+    border-radius: 10px;
+    color: #232324;
+    background: #ac6949;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu input:focus{
+    outline: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+.menu input::placeholder {
+    color: #7f4d35;
+    opacity: 1; /* Firefox */
+}
+
+/* Internet Explorer 10-11 */
+.menu input:-ms-input-placeholder {
+    color: #7f4d35;
+}
+
+/* Microsoft Edge */
+.menu input::-ms-input-placeholder {
+    color: #7f4d35;
+}
+
+/* Filter */
+
+.menu .filters {
+    margin-left: 10px;
+}
+
+.menu .filters a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #232324;
+}
+
+.menu .filters a:focus {
+    color: #de4f4f;
+}
+
+.menu .filters #filterAll {
+    padding-right: 5px;
+    border-right: 2px solid #232324;
+    cursor: pointer;
+}
+
+.menu .filters #labelLiked {
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/* COFFEE MENU */
+
+.heartFillIcon {
+    color: #de4f4f;
+    fill: #de4f4f;
+}
+
+.heartAddFillIcon {
+    color: #f3e6d4;
+    fill: #f3e6d4;
+}
+
+.coffeeTable {
+    grid-area: coffee;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    scrollbar-color: #5e7d67 transparent;
+    scrollbar-width: thin;
+}
+
+.coffeeTable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #5e7d67;
+}
+
+@media all and (max-width: 1311px) {
+    .coffeeTable {
+        overflow-y: initial;
+    }
+}
+
+.coffeeButton {
+    position: relative;
+    display: inline-block;
+    margin: 10px 5px 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    color: #f3e6d4;
+    fill: #f3e6d4;
+    text-decoration: inherit;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #ac6949;
+}
+
+.coffeeButton:focus {
+    box-shadow: 0 0 4px 2px rgba(222, 79, 79, 0.70);
+}
+
+.coffeeButton:active {
+    transform: scale(95%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.coffeeType {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #7f4d35;
+}
+
+.cupLineIcon {
+    width: 54px;
+    height: 48px;
+    margin-bottom: 2px;
+}
+
+.coffeeType label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.coffeeButton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #232324;
+    cursor: pointer;
+}
+
+.coffeeButton button:focus {
+    box-shadow: 0 0 4px 2px rgba(222, 79, 79, 0.50);
+}
