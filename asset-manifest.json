@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/B0B39KAJ-coffee-recipes/static/css/main.948e7a07.css",
+    "main.js": "/B0B39KAJ-coffee-recipes/static/js/main.e0b24830.js",
+    "service-worker.js": "/B0B39KAJ-coffee-recipes/service-worker.js",
+    "static/media/background.png": "/B0B39KAJ-coffee-recipes/static/media/background.3410d411db2552759b07.png",
+    "index.html": "/B0B39KAJ-coffee-recipes/index.html",
+    "main.948e7a07.css.map": "/B0B39KAJ-coffee-recipes/static/css/main.948e7a07.css.map",
+    "main.e0b24830.js.map": "/B0B39KAJ-coffee-recipes/static/js/main.e0b24830.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.948e7a07.css",
+    "static/js/main.e0b24830.js"
+  ]
+}
