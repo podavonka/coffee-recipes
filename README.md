@@ -57,7 +57,7 @@ The website offers a search feature that allows users to find specific recipes b
 
 Users can engage with the website by liking their favorite recipes. The like function provides a way for users to keep track of their preferred recipes.
 
-**4.3. Show Liked Recipes Function
+**4.3. Show Liked Recipes Function**
 
 The website provides a feature that allows users to view all the recipes they have liked in one place. This functionality provides convenience for users to access their favorite recipes without having to search for them individually.
 
